@@ -21,7 +21,7 @@ However this requires some prerequisites.
 
 ## Hardware installation
 
-1. `curl https://git.2li.ch/Nebucatnetzer/nixos/archive/master.tar.gz | tar xz`
+1. `curl -L https://github.com/dmytrokyrychuk/nixos/archive/refs/heads/main.tar.gz | tar xz && mv nixos-main nixos`
 2. `cd nixos && nix-shell`
 3. `sudo python3 scripts/format-disk.py`
 4. `sudo nixos-install --no-root-passwd --root /mnt --impure --flake .#SYSTEMNAME`
