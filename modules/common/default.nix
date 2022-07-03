@@ -11,7 +11,7 @@
   };
 
   # Set your time zone.
-  time.timeZone = "Europe/Zurich";
+  time.timeZone = "Europe/Kiev";
 
   networking = {
     domain = "2li.local";
