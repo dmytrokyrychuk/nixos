@@ -14,7 +14,6 @@
   time.timeZone = "Europe/Kiev";
 
   networking = {
-    domain = "2li.local";
     enableIPv6 = false;
     firewall.allowedTCPPorts = [ 22 ];
     # firewall.allowedUDPPorts = [ ... ];
