@@ -4,6 +4,8 @@ This repository contains my configuration for my Nixos systems.
 I don't provide any garantuees that it will work on other systems.
 In addition some of the scripts required for installation will destroy your data when used.
 
+Originally forked from https://git.2li.ch/Nebucatnetzer/nixos
+
 ## VM installation
 
 This allows you to setup a VM with minimal effort.
