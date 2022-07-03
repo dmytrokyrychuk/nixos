@@ -8,7 +8,7 @@
     "${inputs.self}/home-manager/software/starship"
   ];
 
-  programs.git.userEmail = "andreas@zweili.ch";
+  programs.git.userEmail = custom.email;
 
   programs.bash = {
     enable = true;
