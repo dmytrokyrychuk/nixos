@@ -5,6 +5,8 @@
     "${inputs.self}/modules/syslog"
   ];
 
+  networking.hostName = "nixos-management";
+
   boot.initrd.availableKernelModules = [
     "ata_piix"
     "uhci_hcd"
