@@ -88,7 +88,7 @@
   security.sudo = {
     extraRules = [
       {
-        users = [ "andreas" ];
+        users = [ custom.username ];
         commands = [
           {
             command = "${pkgs.nixos-rebuild}/bin/nixos-rebuild -j auto switch";
