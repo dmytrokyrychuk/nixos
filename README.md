@@ -11,7 +11,7 @@ Originally forked from https://git.2li.ch/Nebucatnetzer/nixos
 This allows you to setup a VM with minimal effort.
 However this requires some prerequisites.
 
-- A VM running the minimal NixOS ISO reachable with SSH under nixos@nixos.2li.local.
+- A VM running the minimal NixOS ISO reachable with SSH under nixos@nixos.home.kyrych.uk.
 - The VM runs UEFI.
 - You've set a password for the nixos user.
 

@@ -27,8 +27,8 @@
     useDHCP = false;
     hostName = hostname;
     hosts = {
-      "127.0.0.1" = [ "${hostname}.2li.local" ];
-      ip = [ "${hostname}.2li.local" ];
+      "127.0.0.1" = [ "${hostname}.home.kyrych.uk" ];
+      ip = [ "${hostname}.home.kyrych.uk" ];
     };
     defaultGateway = "10.7.89.1";
     nameservers = [ "10.7.89.2" ];

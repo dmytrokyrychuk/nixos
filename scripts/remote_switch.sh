@@ -17,7 +17,7 @@ export NIX_SSHOPTS="-t -i $rsa_key"
 
 for host in "${hosts[@]}"
 do
-    fqdn="$host.2li.local"
+    fqdn="$host.home.kyrych.uk"
     echo $fqdn
     nixos-rebuild switch -j auto --use-remote-sudo --build-host localhost --target-host $fqdn --flake ".#$host"
     if [ $host == "nixos-management" ]; then

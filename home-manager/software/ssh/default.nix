@@ -2,7 +2,7 @@
   programs.ssh = {
     enable = true;
     extraConfig = ''
-      Host nixos.2li.local
+      Host nixos.home.kyrych.uk
         StrictHostKeyChecking no
         UserKnownHostsFile /dev/null
         User nixos

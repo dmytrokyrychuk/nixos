@@ -2,7 +2,7 @@
 
 read -e -p "Enter a config you want to deploy: " flake
 
-server="nixos@nixos.2li.local"
+server="nixos@nixos.home.kyrych.uk"
 download_command="curl https://github.com/dmytrokyrychuk/nixos/archive/master.tar.gz | tar xz"
 install_command="cd ~/nixos && ./scripts/install_vm.sh $flake"
 rsa_key="~/.ssh/id_ed25519"
