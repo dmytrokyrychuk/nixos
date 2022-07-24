@@ -61,6 +61,10 @@
     in
     {
       nixosConfigurations = {
+        beancount = mkComputer {
+          hostname = "beancount";
+          inherit custom pkgs inputs;
+        };
         gwyn = mkComputer {
           hostname = "gwyn";
           home-module = "desktop";
